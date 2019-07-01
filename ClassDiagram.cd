@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CBase">
+    <Position X="4.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAACAAAAAACAAAgAACBAAAAAAIAQACgARAA=</HashCode>
+      <FileName>CFileStat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFile">
+    <Position X="3.25" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAABCgAAAAAAAAACBAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CFileStat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLink">
+    <Position X="5.5" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAABAACBAAAAAQgAAAAAAAAA=</HashCode>
+      <FileName>CFileStat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDir">
+    <Position X="20.75" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEICAgAAAgAAAAAEAACBAgAABAAAAAgAAYAA=</HashCode>
+      <FileName>CFileStat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBaseCmd">
+    <Position X="13" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAgAAAAAAAAAAAgAAAAQAAAABAQCA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDirCmd" Collapsed="true">
+    <Position X="10.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAgAAEAAAAACIAAAAAACQAAAgAEACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMdCmd" Collapsed="true">
+    <Position X="17.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCdCmd" Collapsed="true">
+    <Position X="24.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCopyCmd">
+    <Position X="1.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDelCmd" Collapsed="true">
+    <Position X="6.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRdCmd" Collapsed="true">
+    <Position X="13" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenCmd" Collapsed="true">
+    <Position X="19.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAASA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveCmd" Collapsed="true">
+    <Position X="26.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMklinkCmd">
+    <Position X="4" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAiA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSaveCmd" Collapsed="true">
+    <Position X="8.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoadCmd" Collapsed="true">
+    <Position X="15.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CClsCmd">
+    <Position X="22" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAbstractFactory">
+    <Position X="10.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>CCommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCmdFactory">
+    <Position X="10.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAECA=</HashCode>
+      <FileName>CCommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDiskManager">
+    <Position X="16.25" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAQABAgAAAAAAAAAAAAAAABggAoCAAAAAAE=</HashCode>
+      <FileName>CDiskManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCmdParse">
+    <Position X="21.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AABgAAACAAAAAAAABAAAAAAAgAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>CCmdParse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSerialize">
+    <Position X="17" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAACBAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>CSerialize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="enFileType">
+    <Position X="17.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAgAAAAIAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>CFileStat.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enCmdType" Collapsed="true">
+    <Position X="15.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAAAAAACAAAAAAABQAQAAAAAAAABAEABAACA=</HashCode>
+      <FileName>CCommand.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
